@@ -1,2 +1,9 @@
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-auto-rows: 50px;
+}
 
-/* Your CSS Code here. */
+.holder div {
+    border: 1px solid #000;
+}
